@@ -39,7 +39,7 @@ export default function Home() {
     <main className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-blue-700">
       <Card className="w-[90%] max-w-[600px] text-center">
         <CardHeader>
-          <CardTitle className="text-4xl font-bold mb-2">TowLoans.com</CardTitle>
+          <CardTitle className="text-5xl font-bold mb-2">TowLoans.com</CardTitle>
           <p className="text-2xl text-gray-600">Coming Soon!</p>
         </CardHeader>
         <CardContent>
