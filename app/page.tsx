@@ -62,7 +62,7 @@ export default function Home() {
             </div>
           </div>
           <p className="text-gray-600 mt-4">
-            We're working hard to bring you the best tow truck financing solutions.
+            We&apos;re working hard to bring you the best tow truck financing solutions.
             Stay tuned!
           </p>
         </CardContent>
