@@ -5,15 +5,15 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function Home() {
   const [timeLeft, setTimeLeft] = useState({
-    days: 7,
+    days: 0,
     hours: 0,
     minutes: 0,
     seconds: 0
   })
 
   useEffect(() => {
-    const targetDate = new Date()
-    targetDate.setDate(targetDate.getDate() + 7)
+    // Set a fixed target date (adjust this to your desired launch date)
+    const targetDate = new Date('2024-04-15T00:00:00') // Example: April 15, 2024
 
     const timer = setInterval(() => {
       const now = new Date()
